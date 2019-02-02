@@ -1,6 +1,5 @@
 # Add  code here!
 def prime?(num)
-	
 	def factor(num)
 		(1..num).select{|n| num%n == 0}
 	end
